@@ -4,10 +4,10 @@ from llm_processing import generate_product_card
 
 
 st.set_page_config(
-    page_title="AI-ассистент по карточкам товаров",
+    page_title="AI-ассистент для B2B-интернет-магазина",
     page_icon=":robot_face:",
     layout="centered")
-st.title("AI-ассистент по карточкам товаров")
+st.title("AI-ассистент по генерации карточек товаров")
 
 def validate_input(data):
     fields = {
